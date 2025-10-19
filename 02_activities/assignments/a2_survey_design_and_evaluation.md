@@ -194,35 +194,36 @@ Due to the difficulty in reaching volunteers, rejective sampling was also applie
 
 A field sample of approximately 50,000 units was used. About 40,000 invitation letters to the electronic questionnaire were sent to households, with an expected completion of 24,000 questionnaires.
 
+
 3. Target Population:
 
 All persons 15 years of age and older living in the ten provinces of Canada, excluding full-time residents of institutions (those residing for more than six months).
+
 
 4. Sampling Frame:
 
 The sampling frame combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada’s dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or a single telephone number if the link to an address could not be established). This design was used to obtain better coverage of households with a telephone number.
 
+
 5. Survey Modes:
 
 Data were collected directly from respondents using two modes:
-
-Electronic questionnaire (self-administered online)
-
-Computer-assisted telephone interviewing (CATI)
-
+-- Electronic questionnaire (self-administered online)
+-- Computer-assisted telephone interviewing (CATI)
 Respondents could choose to complete the survey in English or French, and proxy reporting was not permitted.
+
 
 6. Timeline:
 
 -- Reference period: 12 months preceding the interview date
-
 -- Collection period: September 4 – December 28, 2018
-
 -- Frequency: Every 5 years
+
 
 7. Response Rate:
 
 The overall response rate was 41.9%.
+
 
 8. Weights:
 
@@ -242,7 +243,7 @@ Imputation was used to address item or partial non-response. Except in a few cas
 
 Imputation was carried out in nine steps:
 
-Personal income and family income
+1. Personal income and family income
 2–4. Formal volunteering variables in the master file
 5–6. Informal volunteering variables in the master file
 7–9. Donation file variables and solicitation methods in the master file
@@ -251,19 +252,20 @@ For 2018, personal income questions were not asked directly. Income information 
 
 The GSS imputation process ensured incomplete responses were filled with data from similar respondents, increasing the number of usable survey units for analysis.
 
+
 11. Sources of Error:
 
 The survey is subject to both sampling and non-sampling errors.
 
-Sampling error: Variation that arises because results are based on a sample rather than a census. Bootstrap weights were used to estimate sampling variability.
+-- Sampling error: Variation that arises because results are based on a sample rather than a census. Bootstrap weights were used to estimate sampling variability.
 
-Non-sampling error: Includes coverage errors, non-response bias, response errors, and processing errors.
+-- Non-sampling error: Includes coverage errors, non-response bias, response errors, and processing errors.
 
-Coverage error: Although the frame improved over past methods, some under- or over-coverage may remain.
+-- Coverage error: Although the frame improved over past methods, some under- or over-coverage may remain.
 
-Non-response bias: Adjusted for through weighting using auxiliary data such as income and household composition.
+-- Non-response bias: Adjusted for through weighting using auxiliary data such as income and household composition.
 
-Response/processing errors: Minimized through interviewer training, questionnaire testing, and automated quality controls.
+-- Response/processing errors: Minimized through interviewer training, questionnaire testing, and automated quality controls.
 
 12. Limitations, known biases, etc:
 
