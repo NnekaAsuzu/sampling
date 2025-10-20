@@ -40,30 +40,140 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1' – Understanding employee turnover in a tech company
+
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the key factors contributing to high turnover among entry- and lower-level employees and to gather insights on changes that could improve employee satisfaction and retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: All entry- and lower-level employees currently working at the company.
+
+Sampling Frame: The company’s internal employee database containing active employee records, including department, role, and contact information.
+
+Sampling Units: Individual employees in the target population.
+
+Observational Units: Responses to the survey questions provided by individual employees.
+
+Overall Sampling Strategy: Stratified random sampling based on department and role level to ensure representation across different areas of the company.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been employed at this company (in your current role)?
+
+A) Less than 6 months
+
+B) 6 to 12 months
+
+C) 12 to 24 months 
+
+D) More than 24 months
+
+
+2. How satisfied are you with your current role?
+
+A) Very satisfied
+
+B) Satisfied
+
+C) Dissatisfied
+
+D) Very dissatisfied
+
+
+3. How would you rate the quality of communication and support from your immediate supervisor?
+
+A) Excellent
+
+B) Good
+
+C) Fair
+
+D) Poor
+
+
+4. What is your main reason for considering leaving (or having considered leaving) the company?
+
+A) Compensation
+
+B) Lack of career growth opportunities
+
+C) Workload/stress
+
+D) Company culture
+
+
+5. Do you feel that your skills and abilities are being fully utilized in your current role?
+
+A) Yes
+
+B) Somewhat
+
+C) No
+
+D) Not sure
+
+
+6. How satisfied are you with the company’s benefits and compensation package?
+
+A) Very satisfied
+
+B) Satisfied
+
+C) Dissatisfied
+
+D) Very dissatisfied
+
+
+7. How would you rate the work-life balance in your current role?
+
+A) Excellent
+
+B) Good
+
+C) Fair
+
+D) Poor
+
+
+8. How effective do you feel management is at recognizing and rewarding employee contributions?
+
+A) Very effective
+
+B) Somewhat effective
+
+C) Not very effective
+
+D) Ineffective
+
+
+9. What improvements would most encourage you to stay at this company? (Select one)
+
+A) Higher pay
+
+B) Career development opportunities
+
+C) Flexible work arrangements
+
+D) Better management support
+
+
+10. Would you recommend this company as a good place to work to a friend or colleague?
+
+A) Definitely yes
+
+B) Probably yes
+
+C) Probably no
+
+D) Definitely no
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +181,108 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+For the Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (Cycle 33):
+
+1. Sample Type:
+
+This is a sample survey with a cross-sectional design. The survey uses a stratified probability sampling approach at the province and Census Metropolitan Area (CMA) level. Information is collected from one randomly selected household member aged 15 or older, and proxy responses are not permitted.
+
+Due to the difficulty in reaching volunteers, rejective sampling was also applied: after respondents were classified as volunteers or not, all volunteers completed a long interview, while non-volunteers were randomly divided into two groups — one completed a long interview, and the other completed a short interview.
+
+
+2. Sample Size:
+
+A field sample of approximately 50,000 units was used. About 40,000 invitation letters to the electronic questionnaire were sent to households, with an expected completion of 24,000 questionnaires.
+
+
+3. Target Population:
+
+All persons 15 years of age and older living in the ten provinces of Canada, excluding full-time residents of institutions (those residing for more than six months).
+
+
+4. Sampling Frame:
+
+The sampling frame combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada’s dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or a single telephone number if the link to an address could not be established). This design was used to obtain better coverage of households with a telephone number.
+
+
+5. Survey Modes:
+
+Data were collected directly from respondents using two modes:
+-- Electronic questionnaire (self-administered online)
+-- Computer-assisted telephone interviewing (CATI)
+Respondents could choose to complete the survey in English or French, and proxy reporting was not permitted.
+
+
+6. Timeline:
+
+-- Reference period: 12 months preceding the interview date
+-- Collection period: September 4 – December 28, 2018
+-- Frequency: Every 5 years
+
+
+7. Response Rate:
+
+The overall response rate was 41.9%.
+
+
+8. Weights:
+
+-- A person-level weighting factor (WGHT_PER) was applied to ensure the data represented the Canadian population aged 15 and older.
+-- Additional bootstrap weights were created for design-based variance estimation.
+-- Weights were adjusted to align the weighted income distribution with the 2017 Canadian Income Survey (CIS) by province.
+
+9. Data Processing:
+
+Data processing was conducted using Statistics Canada’s SSPE generalized processing system to ensure high-quality, harmonized outputs.
+Automatic and manual edits were performed at both micro and macro levels to verify consistency, family relationships, and questionnaire flow.
+The CATI system performed in-interview validity checks and edits.
+
+10. Cleaning, imputation, etc
+
+Imputation was used to address item or partial non-response. Except in a few cases, missing values were filled using donor records selected through a score function: characteristics of the recipient record were compared with donor records, and the donor with the highest score was used to fill in missing information. If multiple donors had the same score, one was randomly selected. Where donor imputation was not feasible, mean imputation from a pool of donors was used.
+
+Imputation was carried out in nine steps:
+
+1. Personal income and family income
+2–4. Formal volunteering variables in the master file
+5–6. Informal volunteering variables in the master file
+7–9. Donation file variables and solicitation methods in the master file
+
+For 2018, personal income questions were not asked directly. Income information was obtained by linking respondents’ survey data to the 2017 T1 Family File (T1FF). Family income was obtained for 81.7% of households from direct linkage, and missing information for the remainder was imputed.
+
+The GSS imputation process ensured incomplete responses were filled with data from similar respondents, increasing the number of usable survey units for analysis.
+
+
+11. Sources of Error:
+
+The survey is subject to both sampling and non-sampling errors.
+
+-- Sampling error: Variation that arises because results are based on a sample rather than a census. Bootstrap weights were used to estimate sampling variability.
+
+-- Non-sampling error: Includes coverage errors, non-response bias, response errors, and processing errors.
+
+-- Coverage error: Although the frame improved over past methods, some under- or over-coverage may remain.
+
+-- Non-response bias: Adjusted for through weighting using auxiliary data such as income and household composition.
+
+-- Response/processing errors: Minimized through interviewer training, questionnaire testing, and automated quality controls.
+
+12. Limitations, known biases, etc:
+
+The survey results are subject to non-sampling errors, including coverage errors, non-response, response errors, and processing errors.
+
+Coverage errors may occur because some parts of the target population were excluded or underrepresented, such as households not included in the sampling frame.
+
+Non-response bias may remain even after weighting adjustments. For the 2018 GSS, adjustments were made using auxiliary data such as income and household composition to account for non-responding households.
+
+The survey excludes residents of the territories and institutional populations, which limits national generalizability.
+
+13. Link to Documentation and Additional Sources:
+
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
+
+
 ```
 
 ## Rubric
@@ -99,3 +310,7 @@ Checklist:
 - [ ] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via the help channel in Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
+
+
+
+
